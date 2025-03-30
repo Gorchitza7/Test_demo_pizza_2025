@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "strict": true,
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "types": ["@playwright/test"],
+    "baseUrl": ".",
+    "paths": {
+      "core/*": ["core/*"],
+      "pages/*": ["pages/*"]
+    }
+  },
+  "include": ["**/*.ts"]
+}
+
+
